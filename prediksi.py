@@ -22,6 +22,11 @@ judul = tk.Label(
 )
 judul.pack(fill="x")
 
+# Warna aplikasi
+warna_bg = "#4938C4"
+warna_input = "#7164D8"
+warna_putih = "#FFFFFF"
+
 # Bingkai utama
 frame = tk.Frame(root, bg="white", padx=25, pady=20)
 frame.pack(padx=25, pady=20, fill="both", expand=True)
