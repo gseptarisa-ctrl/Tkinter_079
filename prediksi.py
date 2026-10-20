@@ -71,3 +71,16 @@ label_jurusan = tk.Label(
     fg=warna_putih
 )
 label_jurusan.pack(pady=(35, 10))
+
+# Pilihan jurusan
+jurusan = ttk.Combobox(
+    root,
+    values=["Teknologi Informasi"],
+    state="readonly",
+    font=("Arial", 11),
+    width=20,
+    justify="center"
+)
+jurusan.pack()
+jurusan.set("Teknologi Informasi")
+
