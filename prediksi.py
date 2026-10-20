@@ -21,3 +21,8 @@ judul = tk.Label(
     pady=20
 )
 judul.pack(fill="x")
+
+# Bingkai utama
+frame = tk.Frame(root, bg="white", padx=25, pady=20)
+frame.pack(padx=25, pady=20, fill="both", expand=True)
+
