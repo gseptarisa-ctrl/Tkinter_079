@@ -32,3 +32,8 @@ frame_input.pack(padx=25)
 
 # Membuat 10 label 
 entries = []
+
+for i in range(10):
+    baris = tk.Frame(frame_input, bg=warna_bg)
+    baris.pack(fill="x", pady=7)
+
