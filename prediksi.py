@@ -8,10 +8,12 @@ root.geometry("500x780")
 root.resizable(False, False)
 root.configure(bg="#4938C4")
 
-#Variabel untuk menyimpan input nilai
-nilai_vars = []
+#Warna aplikasi
+warna_bg = "#4938C4"
+warna_input = "#7164D8"
+warna_putih = "#FFFFFF"
 
-#Judul aplikasi
+# Judul aplikasi
 judul = tk.Label(
     root,
     text="Aplikasi Prediksi Prodi Pilihan",
@@ -20,11 +22,6 @@ judul = tk.Label(
     fg=warna_putih
 )
 judul.pack(pady=(30, 35))
-
-#Warna aplikasi
-warna_bg = "#4938C4"
-warna_input = "#7164D8"
-warna_putih = "#FFFFFF"
 
 #Bingkai utama
 frame_input = tk.Frame(root, bg=warna_bg)
