@@ -93,3 +93,24 @@ def hasil_prediksi():
         "Hasil Prediksi",
         "Pilihan Prodi Anda: Teknologi Informasi"
     )
+
+# Tombol hasil prediksi
+tombol = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    command=hasil_prediksi,
+    font=("Arial", 12, "bold"),
+    bg=warna_bg,
+    fg=warna_putih,
+    activebackground=warna_input,
+    activeforeground=warna_putih,
+    relief="solid",
+    bd=2,
+    cursor="hand2",
+    padx=12,
+    pady=7
+)
+tombol.pack(pady=35)
+
+# Menjalankan aplikasi
+root.mainloop()
