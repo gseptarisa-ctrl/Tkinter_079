@@ -27,6 +27,6 @@ warna_input = "#7164D8"
 warna_putih = "#FFFFFF"
 
 # Bingkai utama
-frame = tk.Frame(root, bg="white", padx=25, pady=20)
-frame.pack(padx=25, pady=20, fill="both", expand=True)
+frame_input = tk.Frame(root, bg=warna_bg)
+frame_input.pack(padx=25)
 
