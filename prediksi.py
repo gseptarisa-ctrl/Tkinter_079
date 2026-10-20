@@ -84,3 +84,12 @@ jurusan = ttk.Combobox(
 jurusan.pack()
 jurusan.set("Teknologi Informasi")
 
+# Fungsi hasil prediksi
+def hasil_prediksi():
+    # Hasil selalu Teknologi Informasi
+    jurusan.set("Teknologi Informasi")
+
+    messagebox.showinfo(
+        "Hasil Prediksi",
+        "Pilihan Prodi Anda: Teknologi Informasi"
+    )
