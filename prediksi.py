@@ -47,3 +47,17 @@ for i in range(10):
         anchor="w"
     )
     label.pack(side="left")
+
+    entry = tk.Entry(
+        baris,
+        font=("Arial", 11),
+        width=15,
+        bg=warna_input,
+        fg=warna_putih,
+        insertbackground=warna_putih,
+        relief="flat",
+        justify="center"
+    )
+    entry.pack(side="left", ipady=4)
+
+    entries.append(entry)
