@@ -37,3 +37,13 @@ for i in range(10):
     baris = tk.Frame(frame_input, bg=warna_bg)
     baris.pack(fill="x", pady=7)
 
+    label = tk.Label(
+        baris,
+        text=f"Nilai Mata Pelajaran {i + 1}:",
+        font=("Arial", 11, "bold"),
+        bg=warna_bg,
+        fg=warna_putih,
+        width=23,
+        anchor="w"
+    )
+    label.pack(side="left")
