@@ -16,11 +16,10 @@ judul = tk.Label(
     root,
     text="Aplikasi Prediksi Prodi Pilihan",
     font=("Arial", 18, "bold"),
-    bg="#1D4ED8",
-    fg="white",
-    pady=20
+    bg=warna_bg,
+    fg=warna_putih
 )
-judul.pack(fill="x")
+judul.pack(pady=(30, 35))
 
 # Warna aplikasi
 warna_bg = "#4938C4"
