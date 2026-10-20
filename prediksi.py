@@ -61,3 +61,13 @@ for i in range(10):
     entry.pack(side="left", ipady=4)
 
     entries.append(entry)
+
+# Label pilihan jurusan
+label_jurusan = tk.Label(
+    root,
+    text="Pilihan Jurusan Anda:",
+    font=("Arial", 12, "bold"),
+    bg=warna_bg,
+    fg=warna_putih
+)
+label_jurusan.pack(pady=(35, 10))
